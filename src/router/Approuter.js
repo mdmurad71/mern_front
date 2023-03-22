@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 import { Route, Routes } from 'react-router'
-import Add from '../component/Add'
+import Add from '../component/Add.js'
 import Update from '../component/Update'
 import View from '../component/View'
 
