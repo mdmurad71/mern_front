@@ -10,7 +10,7 @@ export default function Approuter() {
             <Routes>
                 <Route path='/' element={<View />} />
                 <Route path='/add' element={<Add />} />
-                <Route path='/update' element={<Update />} />
+                <Route path='/update/:id' element={<Update />} />
             </Routes>
         </Fragment>
     )
